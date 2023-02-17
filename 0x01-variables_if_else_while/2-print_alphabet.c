@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	char 1case = 'a'
+	char 1case = 'a';
 
 	while (1case <= 'z')
 	{
