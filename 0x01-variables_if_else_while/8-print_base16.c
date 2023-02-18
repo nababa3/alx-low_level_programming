@@ -14,10 +14,10 @@ int main(void)
 		putchar (hex_num);
 		hex_num++; /*incremen num by 1 unill it reaches 57*/
 	}
-	while (hex_a <=102) /*In the ASCII table, 102 is equivalent o f*/
+	while (hex_a <= 102) /*In the ASCII table, 102 is equivalent o f*/
 	{
 		putchar (hex_a);
-		hex_a++; /*incremen num by 1 until it reaches 57*/
+		hex_a++; /*increment num by 1 until it reaches 57*/
 	}
 	putchar ('\n'); /*add new line*/
 	return (0);
