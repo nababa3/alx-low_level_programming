@@ -11,7 +11,7 @@ int main(void)
 	while (num <= 57)
 	{
 		putchar (num);
-		num++; /*increment num by 1 until t reaches 57*/
+		num++; /*increment num by 1 until it reaches 57*/
 	}
 	putchar ('\n'); /*add new line*/
 	return (0);
