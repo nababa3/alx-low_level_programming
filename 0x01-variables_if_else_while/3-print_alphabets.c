@@ -11,10 +11,10 @@ int main(void)
 
 	while (lcase <= 'z') /* runs each lowercase letter a, b, c, ...z*/
 	{
-		putchar(lcase); /*output a char to sdout */
-		lcase++; /*keeps incrementing by one char until it reaches 'Z'*/
+		putchar(lcase); /*output a char to stdout */
+		lcase++;  /*keeps incrementing by one char until it reaches 'Z'*/
 	}
-	wile (ucase <= 'Z') /* runs each lowercase letter a, b, c, ...z*/
+	while (ucase <= 'Z') /* runs each lowercase letter a, b, c, ...z*/
 	{
 		putchar(ucase); /*prints a char to stdout */
 		ucase++; /*keeps incrementing by one char until it reaches 'Z'*/
