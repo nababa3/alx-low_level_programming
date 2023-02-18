@@ -2,9 +2,9 @@
 
 /**
   * main - Entry point
-       * @while - nested while loop
+	* @while - nested while loop
   *
-  * return: 0 (Success)
+  * Return: 0 (Success)
   */
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 
 	while (num1 <= 19)
 	{
-		int num2 =10;
+		int num2 = 10;
 
 		while (num2 <= 19)
 		{
@@ -20,7 +20,7 @@ int main(void)
 			{
 				putchar((num1 % 10) + '0');
 				putchar((num2 % 10) + '0');
-				if (num1 !=18 || num2 != 19)
+				if (num1 != 18 || num2 != 19)
 				{
 					putchar(',');
 					putchar(' ');
