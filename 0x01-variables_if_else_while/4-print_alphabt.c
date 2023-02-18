@@ -6,13 +6,13 @@
  */
 int main(void)
 {
-	char 1case = 'a';
+	char lcase = 'a';
 
-	while (1case <= 'z')
+	while (lcase <= 'z')
 	{
-		if (1case != 'e' && 1case != 'q')
-			putchar (1case);
-		1case++;
+		if (lcase != 'e' && lcase != 'q')
+			putchar (lcase);
+		lcase++;
 	}
 	putchar ('\n');
 	return (0);
