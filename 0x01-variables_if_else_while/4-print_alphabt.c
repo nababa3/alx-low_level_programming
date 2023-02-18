@@ -10,8 +10,8 @@ int main(void)
 
 	while (1case <= 'z')
 	{
-		if (1case ! = 'e' && 1case != 'q')
-			puchar (1case);
+		if (1case != 'e' && 1case != 'q')
+			putchar (1case);
 		1case++;
 	}
 	putchar ('\n');
