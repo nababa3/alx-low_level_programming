@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - entry point 
+ * main - entry point
  * Return: 0 (success)
  */
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 	while (hex_num <= 57)
 	{
 		putchar (hex_num);
-		hex_num++; /*increment num by 1 unill it reaches 57*/
+		hex_num++; /*increment num by 1 until it reaches 57*/
 	}
 	while (hex_a <= 102) /*In the ASCII table, 102 is equivalent to f*/
 	{
