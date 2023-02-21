@@ -4,13 +4,13 @@
 /*
  * File: main.h
  *
- * Desc: Header file containing declarations for all function
+ * Desc: Header file containing declartions for all function
  */
 
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
-void _islower(int c);
+int _islower(int c);
 int _isalpha(int c);
 int print_sign(int c);
 int _abs(int);
