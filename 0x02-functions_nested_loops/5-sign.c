@@ -6,11 +6,11 @@
  *
  * Return: 1 for num > zero, 0 for num == Zero, and -1 for < num.
  */
-in print_sign(int n)
+int print_sign(int n)
 {
-	if (n > 0) 
+	if (n > 0)
 	{
-		-putchar('+');
+		_putchar('+');
 		return (1);
 	}
 	else if (n == 0)
@@ -18,7 +18,7 @@ in print_sign(int n)
 		_putchar('0');
 		return (0);
 	}
-	else 
+	else
 	{
 		_putchar('-');
 		return (-1);
