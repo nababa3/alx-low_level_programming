@@ -1,5 +1,5 @@
 #include "main.h"
-#include "2-strien.h"
+#include "2-strlen.c"
 /**
  * print_rev - reverse a string
  *
@@ -9,7 +9,7 @@ void print_rev(char *s)
 {
 	int i;
 
-	for (i = _strien(s) - 1; i >0; i--)
+	for (i = _strlen(s) - 1; i >= 0; i--)
 	{
 		_putchar(*(s + i));
 	}
