@@ -1,9 +1,9 @@
 #include "main.h"
-#include "2-strlen.h"
+#include "2-strlen.c"
 /**
- * puts - puts string twice
+ * puts2 - puts string twice
  *
- * @str: string to put twice 
+ * @str: string to put twice
  */
 void puts2(char *str)
 {
