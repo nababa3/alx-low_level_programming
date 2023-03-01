@@ -2,8 +2,8 @@
 /**
  * _strncpy - copies a string
  * @dest: destination to copy
- * @src: source of copy
- * @n: amount of place to copy
+ * @src: source to copy
+ * @n: amount of places to copy
  * Return: value of dest
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -14,9 +14,9 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		dest[i] = src[i];
 	}
-	for (; i < n; i++) 
-    {
-     	dest[i] = '\0';   
+	for (; i < n; i++)
+	{
+		dest[i] = '\0';
 	}
 	return (dest);
 }
